@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					4801129F1F6F4EF500097BEE = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8AS67DFAXH;
 						ProvisioningStyle = Automatic;
 					};
 					480112B31F6F4EF500097BEE = {
@@ -414,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8AS67DFAXH;
 				INFOPLIST_FILE = "SPA Playground/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.scotland.SPA-Playground";
@@ -426,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8AS67DFAXH;
 				INFOPLIST_FILE = "SPA Playground/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.scotland.SPA-Playground";
