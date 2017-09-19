@@ -12,7 +12,14 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var nameInputField: UITextField!
     @IBOutlet weak var welcomeLabel: UILabel!
-
+    @IBOutlet weak var leadingConstraint: NSLayoutConstraint!
+    @IBOutlet weak var hamburgerMenuView: UIView!
+    let menuHelpers = HamburgerMenuHelpers();
+    
+    @IBAction func openHamburgerMenu(_ sender: Any) {
+        menuHelpers.setUpMenuView(view, hamburgerMenuView, leadingConstraint);
+    }
+    
     @IBAction func nameEnterButton(_ sender: Any) {
         self.updateWelcomeLabel();
     }
@@ -37,6 +44,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad();
         self.nameInputField.delegate = self;
+        self.hamburgerMenuView.layer.shadowRadius = 6;
         // Do any additional setup after loading the view, typically from a nib.
     }
 
